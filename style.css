@@ -1,0 +1,224 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* random style*/
+
+.random-btn{
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    border: 0;
+    
+
+}
+
+/* header start */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+ }
+
+ .header-title{
+
+    font-size: 35px;
+    font-weight: 800;
+
+ }
+
+ nav > ul{
+
+    display: flex;
+    align-items: center;
+
+
+ }
+ nav li{
+
+        list-style: none;
+        margin-right: 50px;
+
+ }
+ nav li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+ }
+.header{
+    
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png),url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+.banner{
+   padding:  30px 30px 0px 150px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between ;
+} 
+.banner-content{
+
+    max-width: 500px;
+}
+.banner .profile-pic{
+
+width: 500;
+
+}
+.banner .banner-greeting{
+
+    font-size: 40px;
+    color: blue;
+    margin: 0;
+}
+.banner .banner-tile{
+
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+.banner .banner-description{
+
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+ /* header end */
+
+ /* main section part 1 start */
+    .about{
+        
+        padding: 130px;
+        border-radius: 10px;
+        background-color:#FFF8F3;
+       
+      
+        
+    }
+    main{
+        max-width: 1140px;
+        margin: 200px auto;
+    }
+    .about h3{
+
+        text-align: center;
+        font-size: 40px;
+    }
+    .about .section-title{
+            color: black;
+            font-size: 20px;
+            font-weight: 700;font-style: normal;
+            line-height: normal;
+
+    }
+    .about-info-container{
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-info{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .info-title{
+
+        margin-bottom: 0;
+    }
+    .info-description{
+        display: inline;
+    }
+
+ /* main section part 1 end */
+ /* what i do section start */
+.what-i-do {
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding: 100px;
+}
+ .what-i-do h3{
+    text-align: center;
+    font-size: 40px;
+}
+.card-container{
+    display: flex;
+}
+.card{
+
+    background-color: white;
+    padding: 20px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px white;
+}
+/* what i do section end */
+
+/* <!-- resume section start --> */
+
+.resume-col{
+    display: flex;
+    gap: 60px;
+}
+.section-title{
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 40px;
+}
+.resume-container h3{
+    font-size: 30px;
+    font-weight: bold ;
+}
+.resume-container h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume-container h5{
+    color: gray;
+    font-size: 20px;
+    display: inline;
+}
+
+/* <!-- resume section end  --> */
+
+/* footer section start */
+ footer{
+
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 180px;
+    margin-top: 100px;
+    justify-content: space-between;
+ }
+.footer-column{
+
+    width: 50%;
+}
+.footer-column .section-title{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.contact input,textarea{
+
+    display: block;
+    margin-bottom: 35px;
+    border: none;
+    padding: 20px 40px;
+    color:#757575;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 75%;
+}
+.footer-column .section-description{
+
+    font-size: 20px;
+}
